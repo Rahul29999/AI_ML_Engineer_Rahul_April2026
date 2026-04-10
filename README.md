@@ -131,12 +131,7 @@ python src/main.py
 
 
 ## Demo Video
-Demo video link available in:
-
-```text
-demo/demo_video_link.txt
-```
-
+[Click here to watch the demo video](https://drive.google.com/file/d/1Uq-S9dj65zpOuzYJg_eedaBfAZUF6Ubz/view?usp=sharing)
 
 ## Tech Stack
 - Python
