@@ -23,7 +23,7 @@ def create_metrics():
 
 
 def create_feedback():
-    print("[TRACE] Loading customer feedback...")
+    print("[TRACE] Loading user feedback...")
     return [
         "App is very slow",
         "Payment failed twice",
@@ -39,7 +39,16 @@ def create_feedback():
         "Too much lag",
         "Frequent app crash",
         "Checkout failed",
-        "Very poor speed"
+        "Very poor speed",
+        "Feature adoption is easy",
+        "Still facing errors",
+        "Excellent functionality",
+        "Customer support was helpful",
+        "Payment timeout issue",
+        "Loved the new checkout flow",
+        "Frequent app crash on mobile",
+        "Performance improved after retry",
+        "Very poor loading speed"
     ]
 
 
