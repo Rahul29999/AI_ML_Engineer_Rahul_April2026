@@ -1,0 +1,20 @@
+=== AI/ML Engineer Assessment 1: Multi-Agent War Room ===
+[TRACE] Starting workflow...
+
+[TRACE] Creating mock dashboard metrics...
+[TRACE] Loading user feedback...
+[TRACE] Loading release notes...
+[AGENT] Product Manager
+[TOOL] trend_comparison()
+[AGENT] Data Analyst
+[TOOL] detect_anomaly()
+[TOOL] detect_anomaly()
+[TOOL] trend_comparison()
+[AGENT] Marketing
+[TOOL] sentiment_summary()
+[AGENT] Risk Critic
+[AGENT] Coordinator
+
+[TRACE] Generating final output...
+
+[SUCCESS] output.json saved successfully
