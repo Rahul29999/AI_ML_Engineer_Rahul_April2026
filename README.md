@@ -8,43 +8,49 @@
 ## Project Overview
 This project simulates a **cross-functional product launch war room** used during a feature rollout.
 
-The system analyzes business metrics, technical performance indicators, customer feedback, and known release risks to generate a structured launch decision:
+The system analyzes:
+- business metrics
+- technical performance indicators
+- customer feedback
+- known release risks
+
+and produces a structured launch decision:
 
 - **PROCEED**
 - **PAUSE**
 - **ROLL BACK**
 
-The solution follows a **multi-agent decision workflow**, where each agent is responsible for a specific business function.
+The workflow follows a **multi-agent orchestration approach**, where each agent represents a specific business function.
 
 ---
 
 ## Problem Statement
-During a new product launch, multiple metrics may shift unexpectedly.
+During a new product launch, multiple business and technical metrics may shift unexpectedly.
 
-The objective of this system is to simulate how product, engineering, analytics, and marketing teams collaborate in a war room environment to decide whether the rollout should continue.
+The objective of this project is to simulate how product, engineering, analytics, and marketing teams collaborate in a war room environment to decide whether the rollout should continue.
 
 ---
 
 ## Agents Implemented
-The workflow simulates the following agents:
+The system includes the following agents:
 
 ### 1. Product Manager Agent
 Responsible for:
 - adoption trend analysis
-- user impact evaluation
-- launch success criteria
+- success criteria validation
+- user impact review
 
 ### 2. Data Analyst Agent
 Responsible for:
 - crash anomaly detection
-- latency spike detection
-- ticket trend analysis
-- metric comparisons
+- latency spike analysis
+- support ticket trend monitoring
+- metric comparison
 
 ### 3. Marketing Agent
 Responsible for:
 - customer sentiment analysis
-- positive vs negative feedback tracking
+- positive vs negative feedback review
 
 ### 4. Risk Critic Agent
 Responsible for:
@@ -54,52 +60,49 @@ Responsible for:
 
 ### 5. Coordinator Agent
 Responsible for:
-- consolidating agent outputs
-- final launch decision
-- confidence scoring
+- consolidating all agent outputs
+- generating final launch decision
+- assigning confidence score
 
 ---
 
 ## Tools / Functions Used
-The following programmatic tools are used by agents:
+The following tools are invoked programmatically by agents:
 
 - `detect_anomaly()`
 - `trend_comparison()`
 - `sentiment_summary()`
 
-These are invoked directly by agents during the decision workflow.
+These tools are used during the decision workflow.
 
 ---
 
 ## Input Artifacts
-Located in `/data`
+Located in `data/`
 
 ### Files
 - `mock_metrics.csv`
 - `user_feedback.txt`
 - `release_notes.json`
 
-### Metrics Included
+### Metrics Covered
 - Signup Conversion
 - Daily Active Users
 - D7 Retention
 - Crash Rate
 - p95 API Latency
-- Support Tickets
+- Support Ticket Volume
 
 ---
 
 ## Output
-Generated inside `/outputs`
-
-### File
-`output.json`
+Generated in `outputs/output.json`
 
 Contains:
 - decision
 - rationale
 - risk register
-- action plan
+- action plan (24–48 hours)
 - communication plan
 - confidence score
 
@@ -107,11 +110,11 @@ Contains:
 
 ## Project Structure
 ```text
-src/        -> main application code
+src/        -> source code
 data/       -> input artifacts
 outputs/    -> generated JSON output
 notebook/   -> Jupyter notebook workflow
-demo/       -> video link / demo artifact
+demo/       -> video link
 ```
 
 ---
@@ -140,7 +143,7 @@ python src/main.py
 ---
 
 ## Demo Video
-Demo video link available inside:
+Demo video link available in:
 
 ```text
 demo/demo_video_link.txt
