@@ -1,4 +1,4 @@
-#  === AI/ML Engineer Assessment 1: Multi-Agent War Room ===
+=== AI/ML Engineer Assessment 1: Multi-Agent War Room ===
 [TRACE] Starting workflow...
 
 [TRACE] Creating mock dashboard metrics...
@@ -48,8 +48,8 @@
             }
         },
         "marketing": {
-            "positive": 8,
-            "negative": 12
+            "positive": 7,
+            "negative": 14
         }
     },
     "risk_register": [
@@ -96,7 +96,7 @@
             "Possible mobile app crash on low-end devices"
         ]
     },
-    "generated_at": "2026-04-10 11:59:35.463000"
+    "generated_at": "2026-04-10 12:53:54.891000"
 }
 
 [SUCCESS] output.json saved successfully
