@@ -13,3 +13,12 @@ Frequent app crash
 Checkout failed
 App performance degraded
 Very poor speed
+Feature adoption is easy
+Still facing errors
+Excellent functionality
+Customer support was helpful
+Payment timeout issue
+Loved the new checkout flow
+Frequent app crash on mobile
+Performance improved after retry
+Very poor loading speed
