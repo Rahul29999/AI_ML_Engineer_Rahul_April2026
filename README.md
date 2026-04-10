@@ -3,8 +3,6 @@
 **Role:** AI / ML Engineer  
 **Assessment:** Multi-Agent Launch War Room  
 
----
-
 ## Project Overview
 This project simulates a **cross-functional product launch war room** used during a feature rollout.
 
@@ -22,14 +20,12 @@ and produces a structured launch decision:
 
 The workflow follows a **multi-agent orchestration approach**, where each agent represents a specific business function.
 
----
 
 ## Problem Statement
 During a new product launch, multiple business and technical metrics may shift unexpectedly.
 
 The objective of this project is to simulate how product, engineering, analytics, and marketing teams collaborate in a war room environment to decide whether the rollout should continue.
 
----
 
 ## Agents Implemented
 The system includes the following agents:
@@ -64,7 +60,6 @@ Responsible for:
 - generating final launch decision
 - assigning confidence score
 
----
 
 ## Tools / Functions Used
 The following tools are invoked programmatically by agents:
@@ -75,7 +70,6 @@ The following tools are invoked programmatically by agents:
 
 These tools are used during the decision workflow.
 
----
 
 ## Input Artifacts
 Located in `data/`
@@ -93,7 +87,6 @@ Located in `data/`
 - p95 API Latency
 - Support Ticket Volume
 
----
 
 ## Output
 Generated in `outputs/output.json`
@@ -106,7 +99,6 @@ Contains:
 - communication plan
 - confidence score
 
----
 
 ## Project Structure
 ```text
@@ -117,21 +109,18 @@ notebook/   -> Jupyter notebook workflow
 demo/       -> video link
 ```
 
----
 
 ## Installation
 ```bash
 pip install -r requirements.txt
 ```
 
----
 
 ## Run Instructions
 ```bash
 python src/main.py
 ```
 
----
 
 ## Example Final Decision
 ```json
@@ -140,7 +129,6 @@ python src/main.py
 }
 ```
 
----
 
 ## Demo Video
 Demo video link available in:
@@ -149,7 +137,6 @@ Demo video link available in:
 demo/demo_video_link.txt
 ```
 
----
 
 ## Tech Stack
 - Python
@@ -158,7 +145,6 @@ demo/demo_video_link.txt
 - JSON
 - Jupyter Notebook
 
----
 
 ## Notes
 No external APIs or keys are required.
